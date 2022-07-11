@@ -26,3 +26,5 @@ git reset --hard (apaga todo o commit e volta para o antigo)
   Branch´s
 git branch test (cria o branch teste)
 git checkout test (muda para o branch teste)
+git diff (diferença entre ainda ñ fez commit)
+git diff --name-only (apenas nm do arquivo que teve alteração)
