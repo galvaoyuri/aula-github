@@ -24,7 +24,22 @@ git reset --mixed (volta para o status antes do commit, não altera os arquivos,
 git reset --hard (apaga todo o commit e volta para o antigo)
 
   Branch´s
-git branch test (cria o branch teste)
-git checkout test (muda para o branch teste)
+git branch teste (cria o branch teste)
+git checkout teste (muda para o branch teste)
+git checkout _nome_arquivo (volta para último save do arquivo ou branch)
 git diff (diferença entre ainda ñ fez commit)
 git diff --name-only (apenas nm do arquivo que teve alteração)
+git diff nome_do_arquivo (apenas alterações nesse arquivo)
+
+     GIT HUB
+
+  Integração
+https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#plataform-linux  
+Abrir chave e colocar no site do GIT HUB " SSH and GPG Keys"
+Vai em meus repositórios, seleciona o repositório e segue comandos
+git remote add origin https://github.com/galvaoyuri/aula-github.git
+git remote (mostra repositório)
+git remote -v (mostra mais detalhes)
+fetch é para puxar o aquivo para o computador local
+push levar do local para o remoto
+
