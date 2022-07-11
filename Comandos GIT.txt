@@ -17,6 +17,8 @@ git add file (envia arquivo)
 git add -a  (envia todos arquivos
 git commit -m "Comentário de alteração"
 git commit -am (envia e commit(
-git log
+git log (q sai do arquivo de log)
 git branch (mostra todos os brunch´s *atual)
-
+git reset --soft (volta para o status antes do commit, não altera os arquivos, preparado para commit)
+git reset --mixed (volta para o status antes do commit, não altera os arquivos,ñ preparado para commit precisa do add)
+git reset --hard (apaga todo o commit e volta para o antigo)
