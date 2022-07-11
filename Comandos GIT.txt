@@ -44,7 +44,9 @@ git remote -v (mostra mais detalhes)
 # push levar do local para o remoto
 
  Push and Pull
-git push nome_diretorio nome_branch
+# sempre antes de dar um push da um pull antes
+git push nome_diretorio nome_branch (repositorio remoto de orig. branch remoto)
+git pull nome_diretorio nome_branch (repositorio remoto de orig. branch local)
 
 
 
