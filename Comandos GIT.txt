@@ -42,10 +42,21 @@ git remote (mostra repositório)
 git remote -v (mostra mais detalhes)
 # fetch é para puxar o aquivo para o computador local
 # push levar do local para o remoto
+
+ Push and Pull
 git push nome_diretorio nome_branch
+
+
+
  Ignorar arquivo
 criar arquivo com nome.externsão .gitignore  
+
 
   Revert
 # Não apaga as alterações feitas no arquivo
 git revert --no-edit (volta ao penúltimo commit sem apagar o último commit)
+
+  Manipulando branch
+#apagar branch remoto
+git push origin :teste (pasta remota : branch a ser deletado)
+git branch -D master (deletar o branch local master)
