@@ -1,0 +1,22 @@
+  Configurações
+git config --global user.name " " (criar usuário nome)
+git config --global user.email "" (criar usuário e-mail)
+git config --global core.editor "" (define editor)
+git config user.name (mostra usuário nome)
+git config user.email (mostra usuário e-mail)
+git config --list (todos os dados do usuário)
+
+  Repositório
+git init (cria repositório)
+
+
+  Comandos básicos
+Branch (repositórios de versões diferentes do sistema master)
+git status
+git add file (envia arquivo)
+git add -a  (envia todos arquivos
+git commit -m "Comentário de alteração"
+git commit -am (envia e commit(
+git log
+git branch (mostra todos os brunch´s *atual)
+
