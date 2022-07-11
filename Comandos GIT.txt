@@ -34,12 +34,14 @@ git diff nome_do_arquivo (apenas alterações nesse arquivo)
      GIT HUB
 
   Integração
-https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#plataform-linux  
-Abrir chave e colocar no site do GIT HUB " SSH and GPG Keys"
-Vai em meus repositórios, seleciona o repositório e segue comandos
+# https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#plataform-linux  
+# Abrir chave e colocar no site do GIT HUB " SSH and GPG Keys"
+# Vai em meus repositórios, seleciona o repositório e segue comandos
 git remote add origin https://github.com/galvaoyuri/aula-github.git
 git remote (mostra repositório)
 git remote -v (mostra mais detalhes)
-fetch é para puxar o aquivo para o computador local
-push levar do local para o remoto
+# fetch é para puxar o aquivo para o computador local
+# push levar do local para o remoto
 
+ Ignorar arquivo
+  
