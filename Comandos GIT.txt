@@ -22,3 +22,7 @@ git branch (mostra todos os brunch´s *atual)
 git reset --soft (volta para o status antes do commit, não altera os arquivos, preparado para commit)
 git reset --mixed (volta para o status antes do commit, não altera os arquivos,ñ preparado para commit precisa do add)
 git reset --hard (apaga todo o commit e volta para o antigo)
+
+  Branch´s
+git branch test (cria o branch teste)
+git checkout test (muda para o branch teste)
